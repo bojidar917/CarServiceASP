@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarServiceASP.Data\CarServiceASP.Data.csproj" />
+    <ProjectReference Include="..\CarServiceASP.Services\CarServiceASP.Services.csproj" />
+    <ProjectReference Include="..\CarServiceASP.ViewModels\CarServiceASP.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

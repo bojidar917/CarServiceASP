@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarServiceASP.Data.Models\CarServiceASP.Data.Models.csproj" />
+    <ProjectReference Include="..\CarServiceASP.Data\CarServiceASP.Data.csproj" />
+    <ProjectReference Include="..\CarServiceASP.ViewModels\CarServiceASP.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
